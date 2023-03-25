@@ -1,0 +1,32 @@
+name: WarpPoints
+main: me.Jonnyfant.WarpPoints.WarpPoints
+author: Jonnyfant
+version: 1.0
+commands:
+  setwarp:
+    usage: /<command> <id> [name]
+    permission: warppoints.use
+  warp:
+    usage: /<command> <id | name>
+    permission: warppoints.use
+  warphelp:
+    usage: /<command>
+    permission: warppoints.use
+  warplist:
+    usage: /<command> [player | all]
+    permission: warppoints.use
+  setwarppointslimit:
+    usage: /<command> <amount>
+    permission: warppoints.admin
+  getwarppointslimit:
+    usage: /<command>
+    permission: warppoints.admin
+  deleteunusedwarppoints:
+    usage: /<command>
+    permission: warppoints.admin
+permissions:
+  warppoints.use:
+    default: true
+  warppoints.admin:
+    default: op
+

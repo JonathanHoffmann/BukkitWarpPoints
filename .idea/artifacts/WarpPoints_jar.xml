@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WarpPoints:jar">
+    <output-path>$PROJECT_DIR$/../WarpPoints_jar</output-path>
+    <root id="archive" name="WarpPoints.jar">
+      <element id="module-output" name="WarpPoints" />
+    </root>
+  </artifact>
+</component>
